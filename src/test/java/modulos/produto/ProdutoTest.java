@@ -1,19 +1,15 @@
 package modulos.produto;
 
 
-import dataFactory.UsuarioDataFactory;
+
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pojo.ProdutoPojo;
-import pojo.UsuarioPojo;
-
 import static dataFactory.ProdutoDataFactory.*;
 import static dataFactory.UsuarioDataFactory.*;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 
